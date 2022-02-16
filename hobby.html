@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Hobbies</title>
+  <style>
+    .card{
+    border-radius: 4px;
+    background: rgb(11, 115, 175);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(214, 15, 15, 0.842), 0 4px 8px rgba(17, 199, 212, 0.829);
+}
+
+  </style>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="hobby.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h2 class="text-primary">MY HOBBY</h2>
+        <ul class="navbar-nav " style="padding-left: 750px;">
+            <li class="nav-item active p-2">
+                <a class="nav-link" href="hobby.html">Hobby</a>
+              </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Painting.html">Painting</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Music.html">Music</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Gardening.html">Gardening</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Cooking.html">Cooking</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Reading.html">Reading</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row">
+          <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner" style="margin-top: 2px;">
+                  <div class="carousel-item active">
+                    <img src="Painting.jpg" alt="Los Angeles" width="700" height="600">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="music.jfif" alt="Chicago" width="700" height="600">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="cooking3.jpg" alt="New York" width="700" height="600">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="reading.jpg" alt="New York" width="700" height="600">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gardening.jpg" alt="New York" width="700" height="600">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+          </div>
+      <div class="col-6">
+         <h1 style=" background: -webkit-linear-gradient(rgb(206, 33, 177), rgb(55, 139, 218));
+         -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;">HOBBY</h1>
+         <p class="hobbydesc">All work and no play makes your life dull. So you need fun activities too. Hobbies are activities that are fun, 
+             entertaining and relaxing. Your hobby can be educative too. There are many kinds of hobbies. People pursue their 
+             hobbies with great passion and zest. Developing a hobby for your self will prove to be useful. Hobbies will help 
+             you use your leisure time gainfully. Your hobbies may be lifelong. You can pursue more than one hobby too. Music, 
+             dance, reading, story writing, sports, philately, painting and theatre may all be hobbies. Interestingly, one person’s 
+             profession may be another person’s hobby. For instance, one could be a professional flautist, but for another playing 
+             the flute could be a hobby. A hobby is a fun activity that is pursued during one’s leisure hours. You will find here a 
+             number of short paragraphs on the topic My Hobby of varying word lengths. We hope these paragraphs on My Hobby will help 
+             students in completing their school assignments. These will also help children to write and read out paragraphs in simple 
+             words and with small sentences. Students can select any My Hobby paragraph according to their particular requirement.</br>
+             After finishing homework, children like to enjoy their free time by doing some extra-curricular activities. Such as 
+             painting, dancing, singing, or playing. It relaxes their minds and prepares them for another day of hard work. Hobbies 
+             can be pursued as a leisure activity. This also helps help us to make more friends who live in our area of interest. A 
+             hobby can be of any type, easy or difficult. Stamp collection is a very difficult type of hobby as it requires a lot of 
+             patience.
+
+
+            </p>
+      </div>
+      </div>
+      <h1 style="margin-left: 40%;">My Hobbies</h1>
+      <div class = "row">
+        <div class="col-3">
+          <a href="Painting.html"><div class="card" style="width:350px; height: 500px;">
+        <img class="card-img-top" src="Paintlink.jpg" alt="Card image" height="500px">
+        <div class="card-body" height="300px">
+          <h4 class="card-title text-center">Painting</h4>
+          <p class="card-text"></p>
+        </div>
+      </div></a>
+      </div>
+      <div class="col-3">
+       <a href="Music.html"> <div class="card" style="width:350px; height: 500px;">
+          <img class="card-img-top" src="Musiclink.jpg" alt="Card image" height="500px">
+          <div class="card-body">
+            <h4 class="card-title text-center">Music</h4>
+            <p class="card-text"></p>
+          </div>
+        </div></a>
+        </div>
+        <div class="col-3">
+          <a href="Cooking.html"><div class="card" style="width:350px; height: 500px;">
+            <img class="card-img-top" src="cookinglink.jpg" alt="Card image" height="500px">
+            <div class="card-body">
+              <h4 class="card-title text-center">Cooking</h4>
+              <p class="card-text"></p>
+            </div>
+          </div></a>
+          </div>
+          <div class="col-3">
+            <a href="Gardening.html"> <div class="card" style="width:350px; height: 500px;">
+              <img class="card-img-top" src="gardenlink.jpg" alt="Card image" height="500px">
+              <div class="card-body">
+                <h4 class="card-title text-center">Gardening</h4>
+                <p class="card-text"></p>
+              </div>
+            </div></a>
+            </div>
+      </div>
+      <footer class="page-footer mb-1" style="margin-top: 10%;">
+        <div class="footer-copyright bg-dark text-white text-center py-3">
+            Hobbies are the stress busters and it mainly says who we are!
+          </div>
+      </footer>
+      </div>
+    </body>
+    </html>

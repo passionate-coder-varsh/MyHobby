@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+  </style>
+  <title>My Hobbies</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="hobby.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky">
+        <h2 class="text-primary">MY HOBBY</h2>
+        <ul class="navbar-nav " style="padding-left: 750px;">
+            <li class="nav-item p-2">
+                <a class="nav-link" href="hobby.html">Hobby</a>
+              </li>
+          <li class="nav-item active p-2">
+            <a class="nav-link" href="Painting.html">Painting</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Music.html">Music</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Gardening.html">Gardening</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Cooking.html">Cooking</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Reading.html">Reading</a>
+          </li>
+        </ul>
+      </nav>
+      <div class = "row">
+        <div class="col-3">
+      <div class="card" style="width:350px; height: 400px;">
+        <img class="card-img-top" src="WaterPainting.jpg" alt="Card image" height="500px">
+        <div class="card-body">
+          <h4 class="card-title">Water Painting</h4>
+          <p class="card-text">Watercolors are usually translucent, and appear luminous because the pigments are laid down in a pure form.</p>
+        </div>
+      </div>
+      </div>
+      <div class="col-3">
+        <div class="card" style="width:350px; height: 500px;">
+          <img class="card-img-top" src="OilPainting.jpg" alt="Card image" height="500px">
+          <div class="card-body">
+            <h4 class="card-title">Oil Painting</h4>
+            <p class="card-text">Oil painting is the process of painting with pigments with a medium of drying oil as the binder.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="width:350px; height: 500px;">
+            <img class="card-img-top" src="GlassPainting.jpg" alt="Card image" height="500px">
+            <div class="card-body">
+              <h4 class="card-title">Glass Painting</h4>
+              <p class="card-text"> A painting upon glass; a surface of glass decorated in color by the use of stained glass or painting, 
+                or both.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width:350px; height: 500px;">
+              <img class="card-img-top" src="wallpainting.jpg" alt="Card image" height="500px">
+              <div class="card-body">
+                <h4 class="card-title">Wall Painting</h4>
+                <p class="card-text">The most common techniques of wall painting are fresco, distemper, tempera, encaustic, and oil painting.</p>
+              </div>
+            </div>
+            </div>
+      </div>
+      <footer class="page-footer sticky" style="margin-top: 10%;">
+        <div class="footer-copyright bg-dark text-white text-center py-3">
+            Hobbies are the stress busters and it mainly says who we are!
+          </div>
+      </footer>
+      </div>
+    </body>
+    </html>

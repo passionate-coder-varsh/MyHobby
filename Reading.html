@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Hobbies</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="hobby.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h2 class="text-primary">MY HOBBY</h2>
+        <ul class="navbar-nav " style="padding-left: 750px;">
+            <li class="nav-item p-2">
+                <a class="nav-link" href="hobby.html">Hobby</a>
+              </li>
+          <li class="nav-item  p-2">
+            <a class="nav-link" href="Painting.html">Painting</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Music.html">Music</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Gardening.html">Gardening</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="Cooking.html">Cooking</a>
+          </li>
+          <li class="nav-item active p-2">
+            <a class="nav-link" href="Reading.html">Reading</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               <h1 style="
+               background: -webkit-linear-gradient(rgb(206, 33, 177), rgb(55, 139, 218));
+              -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;">Harry Potter</h1> 
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <img src="HarryPotter.jpg" width="500px" height="500px" style="margin-left: 35%;"/>
+             <p style="line-height: 2rem;">Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on
+                his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers 
+                of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding 
+                school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about 
+                his parents' mysterious deaths.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               <h1 style=" text-align: center;
+               background: -webkit-linear-gradient(rgb(206, 33, 177), rgb(55, 139, 218));
+              -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;"> Fairy Tales</h1>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <img src="Fairytale.jpg" width="500px" height="500px" style="margin-left: 35%;"/>
+             <p style="line-height: 2rem;">The story is full of lessons about the difficulties of growing up and accepting 
+              responsibilities. Always obey your parents, you should always speak the truth, be brave, honest and generous 
+              are some of the morals which are highlighted within the story.The story is full of lessons about the difficulties of growing up and accepting 
+              responsibilities. Always obey your parents, you should always speak the truth, be brave, honest and generous 
+              are some of the morals which are highlighted within the story.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h1 style=" text-align: center;
+                background: -webkit-linear-gradient(rgb(206, 33, 177), rgb(55, 139, 218));
+               -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;">Disney Land</h1>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <img src="Disneyland.jpg" width="500px" height="500px" style="margin-left: 35%;"/>
+             <p style="line-height: 2rem;">A large amusement park based on the characters and stories in the films of Walt Disney. 
+              People sometimes use Disneyland to mean an imaginary world where everything is extremely pleasant. Synonyms and related
+               words. Circuses, amusement parks and fairgrounds.A large amusement park based on the characters and stories in the films of Walt Disney. 
+               People sometimes use Disneyland to mean an imaginary world where everything is extremely pleasant. Synonyms and related
+                words. Circuses, amusement parks and fairgrounds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <div class="footer-copyright bg-dark text-white text-center py-3 mt-2">
+            Hobbies are the stress busters and it mainly says who we are!
+          </div>
+      </footer>
+      </div>
+    </body>
+    </html>
